@@ -93,7 +93,7 @@ def update_readme(game_state, winner):
 
     tile_content = {}
     for tile in range(9):
-        tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)][{LINKS[f'Tile {tile}']}]"
+        tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
 
     README = f"""# Welcome to my profile
 
