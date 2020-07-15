@@ -102,9 +102,9 @@ def update_readme(game_state):
     tile_content = {}
     for tile in range(9):
         if game_state['tiles'][f'Tile {tile}'] is None:
-            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
+            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
         else:
-            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
+            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
 
     README = f"""# Hi👋👋, I'm DoubleGremlin181
 ### Welcome to my GitHub Profile
