@@ -9,7 +9,7 @@ The most picked move is chosen every hour
 | [![Tile 3](assets/None.png)](https://cntr.click/y4BYk8p) | [![Tile 4](assets/None.png)](https://cntr.click/VCtRg6b) | [![Tile 5](assets/None.png)](https://cntr.click/b0a0hMb) |
 | [![Tile 6](assets/None.png)](https://cntr.click/sGaY2s4) | [![Tile 7](assets/False.png)](https://cntr.click/5B5pmVK) | [![Tile 8](assets/True.png)](https://cntr.click/SG7sV89) |
     
-Current turn: <img src= f"../blob/master/assets/True.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "../blob/master/assets/True.png" alt="Current Turn" width="32"/>
 
 ## About Me
 ### Hi, I'm DoubleGremlin181
