@@ -1,4 +1,4 @@
-# Hi👋👋, I'm DoubleGremlin181
+# Hi, I'm DoubleGremlin181
 ### Welcome to my GitHub Profile
 
 <p align="center">
