@@ -32,3 +32,10 @@ jobs:
       env:
         EMAIL: ${{ secrets.EMAIL }}
         PASSWORD: ${{ secrets.PASSWORD }}
+    - name: Commit and push if changed
+      run: |-
+        git add .
+        git config --global user.email "github-action-bot@example.com"
+        git config --global user.name "GitHub Action Bot"
+        git commit -m "Updated game" -a
+        git push
