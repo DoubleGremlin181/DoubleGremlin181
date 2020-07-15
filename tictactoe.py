@@ -104,8 +104,7 @@ def update_readme(game_state):
         if game_state['tiles'][f'Tile {tile}'] is None:
             tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
         else:
-            tile_content[
-                f"Tile {tile}"] = f"![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)"
+            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
 
     README = f"""# Hi👋👋, I'm DoubleGremlin181
 ### Welcome to my GitHub Profile
