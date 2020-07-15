@@ -120,7 +120,7 @@ def update_readme(game_state):
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
