@@ -127,6 +127,13 @@ Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/bl
 | {tile_content['Tile 0']} | {tile_content['Tile 1']} | {tile_content['Tile 2']} |
 | {tile_content['Tile 3']} | {tile_content['Tile 4']} | {tile_content['Tile 5']} |
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
+
+## How it works
+
+Each open tile is a link which tracks the number of clicks and redirects you to back my profile.
+Every time the program is run, it plays the move with maximum number of clicks.
+It uses GitHub Actions to run every hour using a cron job.
+The rest is just a regular game of Tic-Tac-Toe
     
 ## About Me
 
