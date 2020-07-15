@@ -106,8 +106,7 @@ The most picked move is chosen every hour
 | {tile_content['Tile 3']} | {tile_content['Tile 4']} | {tile_content['Tile 5']} |
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
     
-Current turn:
-![Current turn](assets/{not game_state['last_played']}.png)"""
+Current turn: <img src= f"../blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>"""
 
     with open("README.md", "w") as f:
         f.write(README)
