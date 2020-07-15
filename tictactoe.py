@@ -106,7 +106,7 @@ def update_readme(game_state):
         else:
             tile_content[f"Tile {tile}"] = f"[![Tile {tile}](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
 
-    README = f"""# Hi👋👋, I'm DoubleGremlin181
+    README = f"""# Hi, I'm DoubleGremlin181
 ### Welcome to my GitHub Profile
 
 <p align="center">
