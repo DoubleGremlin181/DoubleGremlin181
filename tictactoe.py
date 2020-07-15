@@ -97,7 +97,7 @@ def update_readme(game_state, winner):
 
     README = f"""# Welcome to my profile
 
-### Why not play a game of Tic-Tac-Toe while you're here
+#### Why not play a game of Tic-Tac-Toe while you're here
 The most picked move is chosen every hour
 
 | Tic | Tac | Toe |
@@ -106,7 +106,21 @@ The most picked move is chosen every hour
 | {tile_content['Tile 3']} | {tile_content['Tile 4']} | {tile_content['Tile 5']} |
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
     
-Current turn: <img src= f"../blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>"""
+Current turn: <img src= f"../blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
+
+## About Me
+### Hi, I'm DoubleGremlin181
+
+<p align="center">
+  <a href="https://kavishhukmani.me/">Personal Website</a> •
+  <a href="https://twitter.com/2Gremlin181">Twitter</a> •
+  <a href="https://www.linkedin.com/in/kavish-hukmani/">LinkedIn</a> •
+  <a href="mailto:khukmani@gmail.com">Email</a>
+</p>
+
+I'm a passionate, creative and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me. My interests and work range from Data Science to creating Chatbots to building APIs for Computer Vision applications to making AR filters for Instagram and much more. I'm always open to new ideas and opportunities.
+
+"""
 
     with open("README.md", "w") as f:
         f.write(README)
