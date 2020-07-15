@@ -1,5 +1,4 @@
 name: Play_TicTacToe
-
 on:
   push:
     branches: [ master ]
@@ -12,30 +11,35 @@ jobs:
   play:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    - name: Cache pip
-      uses: actions/cache@v2
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-          ${{ runner.os }}-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-    - name: Updating board
-      run: python tictactoe.py
-      env:
-        EMAIL: ${{ secrets.EMAIL }}
-        PASSWORD: ${{ secrets.PASSWORD }}
-    - name: Commit and push if changed
-      run: |-
-        git add .
-        git config --global user.email "github-action-bot@example.com"
-        git config --global user.name "GitHub Action Bot"
-        git commit -m "Updated game" -a
-        git push
+      - uses: actions/checkout@v2
+        
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+        
+      - name: Cache pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirementx.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+        
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Update game
+        run: python tictactoe.py
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+        
+      - name: Commit and push
+        run: |
+          git add .
+          git config --global user.email "github-action-bot@example.com"
+          git config --global user.name "GitHub Action Bot"
+          git commit -m "Updated game" -a
+          git push
