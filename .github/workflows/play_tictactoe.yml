@@ -38,6 +38,7 @@ jobs:
         
       - name: Commit and push
         run: |
+          git diff
           git add .
           git config --global user.email "github-action-bot@example.com"
           git config --global user.name "GitHub Action Bot"
