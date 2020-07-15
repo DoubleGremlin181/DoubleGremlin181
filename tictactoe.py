@@ -106,7 +106,7 @@ The most picked move is chosen every hour
 | {tile_content['Tile 3']} | {tile_content['Tile 4']} | {tile_content['Tile 5']} |
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
     
-Current turn: <img src= "../blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
 
 ## About Me
 ### Hi, I'm DoubleGremlin181
