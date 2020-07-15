@@ -93,7 +93,7 @@ def update_readme(game_state, winner):
 
     tile_content = {}
     for tile in range(9):
-        tile_content[f"Tile {tile}"] = f"[![Tile {tile}][assets/{game_state['tiles'][f'Tile {tile}']}.png]][{LINKS[f'Tile {tile}']}]"
+        tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)][{LINKS[f'Tile {tile}']}]"
 
     README = f"""# Welcome to my profile
 
@@ -107,7 +107,7 @@ The most picked move is chosen every hour
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
     
 Current turn:
-![enter image description here](assets/{not game_state['last_played']}.png)"""
+![Current turn](assets/{not game_state['last_played']}.png)"""
 
     with open("README.md", "w") as f:
         f.write(README)
