@@ -43,6 +43,7 @@ def get_tile_count():
     with open("tile_count.json", 'w') as f:
         json.dump(tile_click_count_new, f)
 
+    print(f"Click since last run:{tile_click_count_difference}")
     return tile_click_count_difference
 
 
@@ -55,12 +56,17 @@ def tictactoe(tile_click_count):
             game_state = json.load(f)
 
     if game_state["last_played"] is None:
-        game_state["last_played"] = random.randint(0, 1)
+        game_state["last_played"] = random.choice([True, False])
 
     move = max(tile_click_count, key=lambda x: tile_click_count[x] if game_state["tiles"][x] is None else -1)
 
+    print(game_state)
+    print(move)
+
     game_state["last_played"] = not game_state["last_played"]
     game_state["tiles"][move] = game_state["last_played"]
+
+    print(game_state)
 
     winner = None
     for row in range(3):
@@ -77,8 +83,10 @@ def tictactoe(tile_click_count):
     if game_state["tiles"]["Tile 2"] is not None and game_state["tiles"]["Tile 2"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 6"]:
         winner = game_state["tiles"]["Tile 2"]
 
-    if not all(game_state["tiles"].values()):
+    if all(game_state["tiles"].values()):
         winner = 2
+
+    print(winner)
 
     if winner is not None and os.path.exists("game_state.json"):
         os.remove("game_state.json")
@@ -86,19 +94,31 @@ def tictactoe(tile_click_count):
         with open("game_state.json", 'w') as f:
             json.dump(game_state, f)
 
-    return game_state, winner
+    return game_state
 
 
-def update_readme(game_state, winner):
+def update_readme(game_state):
 
     tile_content = {}
     for tile in range(9):
-        tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
+        if game_state['tiles'][f'Tile {tile}'] is None:
+            tile_content[f"Tile {tile}"] = f"[![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)]({LINKS[f'Tile {tile}']})"
+        else:
+            tile_content[
+                f"Tile {tile}"] = f"![Tile {tile}](assets/{game_state['tiles'][f'Tile {tile}']}.png)"
 
-    README = f"""# Welcome to my profile
+    README = f"""# Hi👋👋, I'm DoubleGremlin181
+### Welcome to my GitHub Profile
+
+<p align="center">
+  <a href="https://kavishhukmani.me/">Personal Website</a> •
+  <a href="https://twitter.com/2Gremlin181">Twitter</a> •
+  <a href="https://www.linkedin.com/in/kavish-hukmani/">LinkedIn</a> •
+  <a href="mailto:khukmani@gmail.com">Email</a>
+</p>
 
 #### Why not play a game of Tic-Tac-Toe while you're here
-Click on a tile to play
+Click on a tile to play  
 The most picked move is chosen every hour
 
 Current turn: <img src= "/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
@@ -110,14 +130,7 @@ Current turn: <img src= "/assets/{not game_state['last_played']}.png" alt="Curre
 | {tile_content['Tile 6']} | {tile_content['Tile 7']} | {tile_content['Tile 8']} |
     
 ## About Me
-### Hi, I'm DoubleGremlin181
 
-<p align="center">
-  <a href="https://kavishhukmani.me/">Personal Website</a> •
-  <a href="https://twitter.com/2Gremlin181">Twitter</a> •
-  <a href="https://www.linkedin.com/in/kavish-hukmani/">LinkedIn</a> •
-  <a href="mailto:khukmani@gmail.com">Email</a>
-</p>
 
 I'm a passionate, creative and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me. My interests and work range from Data Science to creating Chatbots to building APIs for Computer Vision applications to making AR filters for Instagram and much more. I'm always open to new ideas and opportunities.
 
@@ -129,5 +142,5 @@ I'm a passionate, creative and perceptive engineer with a hands-on approach to p
 
 if __name__ == "__main__":
     tile_click_count = get_tile_count()
-    game_state, winner = tictactoe(tile_click_count)
-    update_readme(game_state, winner)
+    game_state = tictactoe(tile_click_count)
+    update_readme(game_state)
