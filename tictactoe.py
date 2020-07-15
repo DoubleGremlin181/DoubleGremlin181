@@ -64,17 +64,17 @@ def tictactoe(tile_click_count):
 
     winner = None
     for row in range(3):
-        if game_state["tiles"][f"Tile {3*row}"] == game_state["tiles"][f"Tile {3*row + 1}"] == game_state["tiles"][f"Tile {3*row + 2}"]:
+        if game_state["tiles"][f"Tile {3*row}"] is not None and game_state["tiles"][f"Tile {3*row}"] == game_state["tiles"][f"Tile {3*row + 1}"] == game_state["tiles"][f"Tile {3*row + 2}"]:
             winner = game_state["tiles"][f"Tile {3*row}"]
 
     for col in range(3):
-        if game_state["tiles"][f"Tile {col}"] == game_state["tiles"][f"Tile {col+3}"] == game_state["tiles"][f"Tile {col+6}"]:
+        if game_state["tiles"][f"Tile {col}"] is not None and game_state["tiles"][f"Tile {col}"] == game_state["tiles"][f"Tile {col+3}"] == game_state["tiles"][f"Tile {col+6}"]:
             winner = game_state["tiles"][f"Tile {col}"]
 
-    if game_state["tiles"]["Tile 0"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 8"]:
+    if game_state["tiles"]["Tile 0"] is not None and game_state["tiles"]["Tile 0"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 8"]:
         winner = game_state["tiles"]["Tile 0"]
 
-    if game_state["tiles"]["Tile 2"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 6"]:
+    if game_state["tiles"]["Tile 2"] is not None and game_state["tiles"]["Tile 2"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 6"]:
         winner = game_state["tiles"]["Tile 2"]
 
     if not all(game_state["tiles"].values()):
