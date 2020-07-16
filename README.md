@@ -1,24 +1,24 @@
 # Hi, I'm DoubleGremlin181
-### Welcome to my <img src="https://img.icons8.com/color/64/000000/github--v1.png"/>GitHub Profile
+### Welcome to my <img src="https://img.icons8.com/color/24/000000/github--v1.png"/>GitHub Profile
 
 <p align="center">
-  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/32/000000/internet.png"/>Personal Website</a> •
-  <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/32/000000/twitter-circled.png"/>Twitter</a> •
-  <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/32/000000/linkedin-circled.png"/>LinkedIn</a> •
-  <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/32/000000/email.png"/>Email</a>
+  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/16/000000/internet.png"/>Personal Website</a> •
+  <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/16/000000/twitter-circled.png"/>Twitter</a> •
+  <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/16/000000/linkedin-circled.png"/>LinkedIn</a> •
+  <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/16/000000/email.png"/>Email</a>
 </p>
 
-#### Why not play a game of Tic-Tac-Toe<img src="https://img.icons8.com/material-outlined/48/000000/delete-sign.png"/><img src="https://img.icons8.com/material-outlined/48/000000/unchecked-circle.png"/> while you're here
+#### Why not play a game of Tic-Tac-Toe<img src="https://img.icons8.com/material-outlined/16/000000/delete-sign.png"/><img src="https://img.icons8.com/material-outlined/16/000000/unchecked-circle.png"/> while you're here
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
 | [![Tile 0](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/5xW31GG) | [![Tile 1](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/k6m4pLh) | [![Tile 2](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/0Jy1NdB) |
 | [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/b0a0hMb) |
-| [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/sGaY2s4) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) |
+| [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) |
 
 ## How it works
 
