@@ -107,16 +107,16 @@ def update_readme(game_state):
             tile_content[f"Tile {tile}"] = f"[![Tile {tile}](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
 
     README = f"""# Hi, I'm DoubleGremlin181
-### Welcome to my GitHub Profile
+### Welcome to my <img src="https://img.icons8.com/color/64/000000/github--v1.png"/>GitHub Profile
 
 <p align="center">
-  <a href="https://kavishhukmani.me/">Personal Website</a> •
-  <a href="https://twitter.com/2Gremlin181">Twitter</a> •
-  <a href="https://www.linkedin.com/in/kavish-hukmani/">LinkedIn</a> •
-  <a href="mailto:khukmani@gmail.com">Email</a>
+  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/32/000000/internet.png"/>Personal Website</a> •
+  <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/32/000000/twitter-circled.png"/>Twitter</a> •
+  <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/32/000000/linkedin-circled.png"/>LinkedIn</a> •
+  <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/32/000000/email.png"/>Email</a>
 </p>
 
-#### Why not play a game of Tic-Tac-Toe while you're here
+#### Why not play a game of Tic-Tac-Toe<img src="https://img.icons8.com/material-outlined/48/000000/delete-sign.png"/><img src="https://img.icons8.com/material-outlined/48/000000/unchecked-circle.png"/> while you're here
 Click on a tile to play  
 The most picked move is chosen every hour
 
@@ -130,15 +130,15 @@ Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/bl
 
 ## How it works
 
-Each open tile is a link which tracks the number of clicks and redirects you to back my profile.
-Every time the program is run, it plays the move with maximum number of clicks.
+Each open tile is a hyperlink embedded in an image which tracks the number of clicks and redirects you to back my profile.
+Every time the program is run it plays the move with maximum number of clicks.
 It uses GitHub Actions to run every hour using a cron job.
 The rest is just a regular game of Tic-Tac-Toe
     
 ## About Me
 
 
-I'm a passionate, creative and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me. My interests and work range from Data Science to creating Chatbots to building APIs for Computer Vision applications to making AR filters for Instagram and much more. I'm always open to new ideas and opportunities.
+I'm a passionate🥇, creative🎨 and perceptive🔭 engineer🔧 with a hands-on approach to problem-solving and an unending thirst for knowledge🎓. Anything and everything that can be classified as technology💻 fascinates me. My interests and work range from Data Science📈 to creating Chatbots🤖 to building APIs for Computer Vision applications👀 to making AR filters👓 for Instagram and much more. I'm always open to new ideas and opportunities.
 
 """
 
