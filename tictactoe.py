@@ -107,16 +107,16 @@ def update_readme(game_state):
             tile_content[f"Tile {tile}"] = f"[![Tile {tile}](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{game_state['tiles'][f'Tile {tile}']}.png)](https://github.com/DoubleGremlin181)"
 
     README = f"""# Hi, I'm DoubleGremlin181
-### Welcome to my <img src="https://img.icons8.com/color/64/000000/github--v1.png"/>GitHub Profile
+### Welcome to my <img src="https://img.icons8.com/color/24/000000/github--v1.png"/>GitHub Profile
 
 <p align="center">
-  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/32/000000/internet.png"/>Personal Website</a> •
-  <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/32/000000/twitter-circled.png"/>Twitter</a> •
-  <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/32/000000/linkedin-circled.png"/>LinkedIn</a> •
-  <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/32/000000/email.png"/>Email</a>
+  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/16/000000/internet.png"/>Personal Website</a> •
+  <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/16/000000/twitter-circled.png"/>Twitter</a> •
+  <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/16/000000/linkedin-circled.png"/>LinkedIn</a> •
+  <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/16/000000/email.png"/>Email</a>
 </p>
 
-#### Why not play a game of Tic-Tac-Toe<img src="https://img.icons8.com/material-outlined/48/000000/delete-sign.png"/><img src="https://img.icons8.com/material-outlined/48/000000/unchecked-circle.png"/> while you're here
+#### Why not play a game of Tic-Tac-Toe<img src="https://img.icons8.com/material-outlined/16/000000/delete-sign.png"/><img src="https://img.icons8.com/material-outlined/16/000000/unchecked-circle.png"/> while you're here
 Click on a tile to play  
 The most picked move is chosen every hour
 
