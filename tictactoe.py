@@ -83,8 +83,8 @@ def tictactoe(tile_click_count):
     if game_state["tiles"]["Tile 2"] is not None and game_state["tiles"]["Tile 2"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 6"]:
         winner = game_state["tiles"]["Tile 2"]
 
-    if all(game_state["tiles"].values()):
-        winner = 2
+    if all(v is not None for k, v in game_state["tiles"].items()):
+        winner = "Draw"
 
     print(winner)
 
@@ -94,10 +94,10 @@ def tictactoe(tile_click_count):
         with open("game_state.json", 'w') as f:
             json.dump(game_state, f)
 
-    return game_state
+    return game_state, winner
 
 
-def update_readme(game_state):
+def update_readme(game_state, winner):
 
     tile_content = {}
     for tile in range(9):
@@ -120,7 +120,8 @@ def update_readme(game_state):
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{not game_state['last_played']}.png" alt="Current Turn" width="32"/>
+{f'Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{not game_state["last_played"]}.png" alt="Current Turn" width="32"/>'
+    if winner is None else f'Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{winner}.png" alt="Current Turn" width="32"/>'}
 
 | Tic | Tac | Toe |
 |--|--|--|
@@ -148,5 +149,6 @@ I'm a passionate🥇, creative🎨 and perceptive🔭 engineer🔧 with a hands-
 
 if __name__ == "__main__":
     tile_click_count = get_tile_count()
-    game_state = tictactoe(tile_click_count)
-    update_readme(game_state)
+    game_state, winner = tictactoe(tile_click_count)
+    update_readme(game_state, winner)
+
