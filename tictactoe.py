@@ -121,7 +121,7 @@ Click on a tile to play
 The most picked move is chosen every hour
 
 {f'Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{not game_state["last_played"]}.png" alt="Current Turn" width="32"/>'
-    if winner is None else f'Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{winner}.png" alt="Current Turn" width="32"/>'}
+    if winner is None else f'Winner: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/{winner}.png" alt="Winner" width="32"/>'}
 
 | Tic | Tac | Toe |
 |--|--|--|
