@@ -83,7 +83,7 @@ def tictactoe(tile_click_count):
     if game_state["tiles"]["Tile 2"] is not None and game_state["tiles"]["Tile 2"] == game_state["tiles"]["Tile 4"] == game_state["tiles"]["Tile 6"]:
         winner = game_state["tiles"]["Tile 2"]
 
-    if all(v is not None for k, v in game_state["tiles"].items()):
+    if winner is None and all(v is not None for k, v in game_state["tiles"].items()):
         winner = "Draw"
 
     print(winner)
