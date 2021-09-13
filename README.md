@@ -12,12 +12,12 @@
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
 | [![Tile 0](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/5xW31GG) | [![Tile 1](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/k6m4pLh) | [![Tile 2](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/0Jy1NdB) |
-| [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/y4BYk8p) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/VCtRg6b) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/b0a0hMb) |
+| [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/VCtRg6b) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/b0a0hMb) |
 | [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/sGaY2s4) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) |
 
 ## How it works
