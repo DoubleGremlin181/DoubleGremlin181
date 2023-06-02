@@ -12,13 +12,13 @@
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
 | [![Tile 0](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/5xW31GG) | [![Tile 1](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/k6m4pLh) | [![Tile 2](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/0Jy1NdB) |
 | [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/y4BYk8p) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/VCtRg6b) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/b0a0hMb) |
-| [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://cntr.click/sGaY2s4) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) |
+| [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) |
 
 ## How it works
 
@@ -29,12 +29,10 @@ The rest is just a regular game of Tic-Tac-Toe
     
 ## About Me
 
+Hey there! 👋 My name is Kavish Hukmani, and I'm a passionate 🥇, creative 🎨, and perceptive 🔭 engineer 🔧 with a hands-on approach to problem-solving and an unending thirst for knowledge 📚. Anything and everything that can be classified as technology 💻 fascinates me.
 
-My name is Kavish Hukmani, and I am a passionate🥇, creative🎨 and perceptive🔭 engineer🔧 with a hands-on approach to problem-solving and an unending thirst for knowledge🎓. Anything and everything that can be classified as technology💻 fascinates me.
+Currently, I'm based in the beautiful city of San Francisco 🌉 where I work as a Data Scientist 🧑‍🔬 at Unison, tackling fascinating problems in Finance 💰, Housing 🏠, and Marketing 📣. Before that, I was part of the Impact Analytics team, creating products that helped top Retail 💃 and CPG 🍫 companies make data-driven decisions like a breeze. Oh, and I proudly hold an MS in Business Analytics 📊 from UC Davis 🎓.
 
-I currently live in San Francisco🌉 and am pursuing my MSBA📈 at UC Davis. I previously worked as a Data Scientist🧑‍🔬 at Impact Analytics, creating products that enabled leading retail💃 and CPG🍫 firms to make data-driven decisions easily.
+When I'm not immersed in the world of technology, you can find me following a range of sports, from Soccer ⚽ and Formula1 🏎️ to various eSports 🖱️. Apart from that, I love solving puzzles 🧩 and listening to music 🎶.
 
-I follow a number of sports ranging from Soccer⚽, Formula1🏎️ to various eSports🖱️. Other than that, I love solving puzzles🧩 and listening to music🎶.
-
-I am always open to new ideas and opportunities. You can learn more about me on my [website](https://kavishhukmani.me/) or [LinkedIn](https://www.linkedin.com/in/kavish-hukmani/) or reach out to me directly at [khukmani@gmail.com](mailto:khukmani@gmail.com)
-
+I'm always open to new ideas and opportunities. You can learn more about me on my [website](https://kavishhukmani.me/) 🌐 or connect with me on [LinkedIn](https://www.linkedin.com/in/kavish-hukmani/) 👥. Feel free to reach out to me directly at [khukmani@gmail.com](mailto:khukmani@gmail.com) 📧. Let's connect and explore exciting possibilities together! 🚀
