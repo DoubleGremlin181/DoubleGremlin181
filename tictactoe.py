@@ -1,37 +1,36 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 import os
 import random
+import datetime
 
-
-LINKS = {"Tile 0": "https://cntr.click/5xW31GG",
-         "Tile 1": "https://cntr.click/k6m4pLh",
-         "Tile 2": "https://cntr.click/0Jy1NdB",
-         "Tile 3": "https://cntr.click/y4BYk8p",
-         "Tile 4": "https://cntr.click/VCtRg6b",
-         "Tile 5": "https://cntr.click/b0a0hMb",
-         "Tile 6": "https://cntr.click/sGaY2s4",
-         "Tile 7": "https://cntr.click/5B5pmVK",
-         "Tile 8": "https://cntr.click/SG7sV89"}
+LINKS = {"Tile 0": "https://l.linklyhq.com/l/1pupi",
+         "Tile 1": "https://l.linklyhq.com/l/1pupm",
+         "Tile 2": "https://l.linklyhq.com/l/1pupo",
+         "Tile 3": "https://l.linklyhq.com/l/1pupp",
+         "Tile 4": "https://l.linklyhq.com/l/1pupt",
+         "Tile 5": "https://l.linklyhq.com/l/1pupv",
+         "Tile 6": "https://l.linklyhq.com/l/1puq3",
+         "Tile 7": "https://l.linklyhq.com/l/1puq8",
+         "Tile 8": "https://l.linklyhq.com/l/1puq9"}
 
 
 def get_tile_count():
     headers = {"User-Agent": "Mozilla/5.0"}
-    payload = {"email": os.environ['EMAIL'], "password": os.environ['PASSWORD'], "loginSubmit": "Sign In"}
-    url = "https://www.linkclickcounter.com/userAccount.php"
+    params = {"api_key": os.environ['API_KEY'], "workspace_id": int(os.environ['WORKSPACE_ID']), "format": "csv",
+              "start": "2023-05-26", "end": str(datetime.date.today() + datetime.timedelta(days=7))}  # Adding a buffer for end_date
+    url = "https://app.linklyhq.com/api/v1/workspace/113887/clicks/counters/link_id"
 
-    r = requests.post(url=url, headers=headers, data=payload)
-    html_content = r.text
-    soup = BeautifulSoup(html_content, "html.parser")
+    r = requests.get(url=url, headers=headers, params=params)
+    table = r.text
 
     tile_click_count_new = {}
     tile_click_count_difference = {}
-    table = soup.find("table", attrs={"class": "table table-striped table-bordered"})
-    for row in table.find_all("tr"):
-        cells = row.find_all("td")
-        if len(cells) > 0:
-            tile_click_count_new[cells[3].find(text=True)] = int(cells[4].find(text=True))
+
+    for row in table.split("\r\n"):
+        cells = row.split(',')
+        if len(cells) == 4:  # Check for end of file
+            tile_click_count_new[cells[1]] = int(cells[3])
 
     if not os.path.exists("tile_count.json"):
         tile_click_count_difference = tile_click_count_new.copy()
