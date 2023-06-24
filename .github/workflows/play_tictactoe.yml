@@ -33,8 +33,8 @@ jobs:
       - name: Update game
         run: python tictactoe.py
         env:
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          API_KEY: ${{ secrets.API_KEY }}
+          WORKSPACE_ID: ${{ secrets.WORKSPACE_ID }}
         
       - name: Commit and push
         run: |
