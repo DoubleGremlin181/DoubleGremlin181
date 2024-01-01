@@ -12,7 +12,7 @@
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
