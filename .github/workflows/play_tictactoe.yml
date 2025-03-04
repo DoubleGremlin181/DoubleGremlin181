@@ -11,31 +11,31 @@ jobs:
   play:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        
+      - uses: actions/checkout@v3
+
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-        
+
       - name: Cache pip
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
             ${{ runner.os }}-
-        
+
       - name: Install dependencies
         run: pip install -r requirements.txt
-      
+
       - name: Update game
         run: python tictactoe.py
         env:
           API_KEY: ${{ secrets.API_KEY }}
           WORKSPACE_ID: ${{ secrets.WORKSPACE_ID }}
-        
+
       - name: Commit and push
         run: |
           git diff
