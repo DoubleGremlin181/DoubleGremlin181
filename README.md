@@ -2,7 +2,7 @@
 ### Welcome to my <img src="https://img.icons8.com/color/96/000000/github--v1.png" height="24"/>GitHub Profile
 
 <p align="center">
-  <a href="https://kavishhukmani.me/"><img src="https://img.icons8.com/color/96/000000/internet.png" height="16"/>Personal Website</a> •
+  <a href="https://kavi.sh/"><img src="https://img.icons8.com/color/96/000000/internet.png" height="16"/>Personal Website</a> •
   <a href="https://twitter.com/2Gremlin181"><img src="https://img.icons8.com/color/96/000000/twitter-circled.png" height="16"/>Twitter</a> •
   <a href="https://www.linkedin.com/in/kavish-hukmani/"><img src="https://img.icons8.com/color/96/000000/linkedin-circled.png" height="16"/>LinkedIn</a> •
   <a href="mailto:khukmani@gmail.com"><img src="https://img.icons8.com/color/96/000000/email.png" height="16"/>Email</a>
@@ -12,12 +12,12 @@
 Click on a tile to play  
 The most picked move is chosen every hour
 
-Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png" alt="Current Turn" width="32"/>
+Current turn: <img src= "https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png" alt="Current Turn" width="32"/>
 
 | Tic | Tac | Toe |
 |--|--|--|
 | [![Tile 0](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1pupi) | [![Tile 1](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 2](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) |
-| [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1pupp) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1pupv) |
+| [![Tile 3](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/True.png)](https://github.com/DoubleGremlin181) | [![Tile 4](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/False.png)](https://github.com/DoubleGremlin181) | [![Tile 5](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1pupv) |
 | [![Tile 6](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1puq3) | [![Tile 7](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1puq8) | [![Tile 8](https://github.com/DoubleGremlin181/DoubleGremlin181/blob/master/assets/None.png)](https://l.linklyhq.com/l/1puq9) |
 
 ## How it works
@@ -35,4 +35,4 @@ Currently, I'm based in the beautiful city of San Francisco 🌉 where I work as
 
 When I'm not immersed in the world of technology, you can find me following a range of sports, from Soccer ⚽ and Formula1 🏎️ to various eSports 🖱️. Apart from that, I love solving puzzles 🧩 and listening to music 🎶.
 
-I'm always open to new ideas and opportunities. You can learn more about me on my [website](https://kavishhukmani.me/) 🌐 or connect with me on [LinkedIn](https://www.linkedin.com/in/kavish-hukmani/) 👥. Feel free to reach out to me directly at [khukmani@gmail.com](mailto:khukmani@gmail.com) 📧. Let's connect and explore exciting possibilities together! 🚀
+I'm always open to new ideas and opportunities. You can learn more about me on my [website](https://kavi.sh/) 🌐 or connect with me on [LinkedIn](https://www.linkedin.com/in/kavish-hukmani/) 👥. Feel free to reach out to me directly at [khukmani@gmail.com](mailto:khukmani@gmail.com) 📧. Let's connect and explore exciting possibilities together! 🚀
